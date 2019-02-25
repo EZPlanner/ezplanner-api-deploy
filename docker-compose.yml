@@ -35,6 +35,7 @@ services:
       - webnet
     depends_on:
       - planner
+      - visualizer
 
 networks:
   webnet:
