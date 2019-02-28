@@ -1,7 +1,7 @@
 version: '3'
 services:
   planner:
-    image: atulbipin/ezplanner-planner:1.0
+    image: atulbipin/ezplanner-planner-service:1.0.1
     deploy:
       replicas: 1
       restart_policy:
