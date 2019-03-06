@@ -1,7 +1,7 @@
 version: '3'
 services:
   planner:
-    image: atulbipin/ezplanner-planner-service:master-1f8ed55
+    image: atulbipin/ezplanner-planner-service:master-23ac4db
     deploy:
       replicas: 1
       restart_policy:
