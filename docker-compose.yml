@@ -35,7 +35,7 @@ services:
       - webnet
 
   nginx:
-    image: atulbipin/ezplanner-api-gateway:master-4708335
+    image: atulbipin/ezplanner-api-gateway:master-79bace4
     ports:
       - '80:80'
       - '443:443'
