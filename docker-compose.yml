@@ -38,6 +38,7 @@ services:
     image: atulbipin/ezplanner-api-gateway:master-4708335
     ports:
       - '80:80'
+      - '443:443'
     networks:
       - webnet
     depends_on:
